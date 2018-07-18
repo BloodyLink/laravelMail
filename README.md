@@ -10,18 +10,15 @@ MAIL_USERNAME=tucorreo@gmail.com
 MAIL_PASSWORD=APP_PASSWORD
 MAIL_ENCRYPTION=tls
 MAIL_FROM_NAME=Contacto
-´´´
-
-endpoint `/api/contacto` con el siguiente body:
 ```
 
+endpoint `/api/contacto` con el siguiente body:
+
+```
 {
 "first_name": "Obi-wan",
 "last_name": "Kenobi",
 "email": "obiwan@kenobi.com",
 "message": "Hello There!"
 }
-
-```
-
 ```
